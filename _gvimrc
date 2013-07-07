@@ -1,0 +1,3 @@
+"Remove toolbar and menu from the GUI
+set guioptions-=m
+set guioptions-=T
