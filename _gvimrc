@@ -2,6 +2,12 @@
 set guioptions-=m
 set guioptions-=T
 
+"Set font to better one
+if has('gui_running')
+  set guifont=Lucida_Console:h9
+endif
+
+
 "Set the color scheme
 :colorscheme desert
 
