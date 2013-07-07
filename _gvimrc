@@ -2,6 +2,9 @@
 set guioptions-=m
 set guioptions-=T
 
+"Set the color scheme
+:colorscheme desert
+
 "Remember size and position of the window
 au GUIEnter * simalt ~x
 
