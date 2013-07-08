@@ -6,3 +6,9 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+"We need to supercharge the current indenting system with providing
+"additional information about file type
+filetype on
+filetype plugin on
+filetype indent on
