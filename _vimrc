@@ -15,3 +15,6 @@ filetype indent on
 
 "Disable the beep sound
 set noeb vb t_vb=
+
+"Make backspace work like most other apps
+set backspace=2
