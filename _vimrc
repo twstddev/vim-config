@@ -18,3 +18,6 @@ set noeb vb t_vb=
 
 "Make backspace work like most other apps
 set backspace=2
+
+"User system clipboard
+set clipboard=unnamed
