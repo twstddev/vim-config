@@ -27,3 +27,6 @@ set number
 
 "Set zen coding on Ctrl + E
 imap <C-e> <C-y>,
+
+"Highlight all search matches
+:set hlsearch
