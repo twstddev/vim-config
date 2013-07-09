@@ -5,10 +5,13 @@ syntax on
 set smartindent
 set tabstop=4
 set shiftwidth=4
-set expandtab
+set noexpandtab
 
 "We need to supercharge the current indenting system with providing
 "additional information about file type
 filetype on
 filetype plugin on
 filetype indent on
+
+"Disable the beep sound
+set noeb vb t_vb=
