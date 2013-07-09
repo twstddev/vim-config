@@ -24,3 +24,6 @@ set clipboard=unnamed
 
 "Display line numbers
 set number
+
+"Set zen coding on Ctrl + E
+imap <C-e> <C-y>,
