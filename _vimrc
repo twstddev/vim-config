@@ -21,3 +21,6 @@ set backspace=2
 
 "User system clipboard
 set clipboard=unnamed
+
+"Display line numbers
+set number
