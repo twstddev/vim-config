@@ -29,4 +29,7 @@ set number
 imap <C-e> <C-y>,
 
 "Highlight all search matches
-:set hlsearch
+set hlsearch
+
+"Move cursor while typing search pattern
+set incsearch
