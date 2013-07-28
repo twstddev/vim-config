@@ -36,3 +36,9 @@ set incsearch
 
 "Make new windows equal to the existing ones in size
 set equalalways
+
+"Create new vertical splits on the right of the current one
+set splitright
+
+"Create new horizontal splits below the current one
+set splitbelow
