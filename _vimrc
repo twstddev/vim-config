@@ -33,3 +33,6 @@ set hlsearch
 
 "Move cursor while typing search pattern
 set incsearch
+
+"Make new windows equal to the existing ones in size
+set equalalways
