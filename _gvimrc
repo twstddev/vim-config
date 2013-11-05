@@ -9,7 +9,7 @@ endif
 
 
 "Set the color scheme
-:colorscheme molokai
+:colorscheme desertEx
 
 "Remember size and position of the window
 au GUIEnter * simalt ~x
