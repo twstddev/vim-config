@@ -63,5 +63,39 @@ set showmatch
 "Highlight current line
 set cursorline
 
-"Set autocomplete on tab
-imap <Tab> <C-n>
+"Set a line break, so vim could not break words somwhere in the middle
+set linebreak
+
+"Set a wrapper line separator
+set showbreak=~\ 
+
+"Set global replace parameter by default
+set gdefault
+"Add spellchecker
+set spell
+
+"Add autocomplete
+set completeopt=longest,menuone
+inoremap <expr> <CR> pumvisible() ? "\<CR>" : "\<C-g>u\<CR>"
+
+function! My_TabComplete()
+	if ( pumvisible() || &omnifunc == '' )
+		return "\<C-N>"
+	else
+		call feedkeys( "\<C-X>\<C-O>" )
+		if pumvisible()
+			return ""
+		else
+			return "\<C-N>"
+		endif
+	endif
+endfunction
+
+inoremap <tab> <c-r>=My_TabComplete()<CR>
+
+"Set leader key
+let mapleader=","
+
+"Set snippmate shortcut
+imap <C-D> <Plug>snipMateNextOrTrigger
+smap <C-D> <Plug>snipMateNextOrTrigger
