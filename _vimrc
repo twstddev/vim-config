@@ -105,3 +105,7 @@ map <leader>h <C-w>h
 map <leader>j <C-w>j
 map <leader>k <C-w>k
 map <leader>l <C-w>l
+
+"Enable nerdtree on Ctrl + N
+map <C-n> :NERDTreeToggle<CR>
+
