@@ -99,3 +99,9 @@ let mapleader=","
 "Set snippmate shortcut
 imap <C-D> <Plug>snipMateNextOrTrigger
 smap <C-D> <Plug>snipMateNextOrTrigger
+
+"Set navigation between buffers
+map <leader>h <C-w>h
+map <leader>j <C-w>j
+map <leader>k <C-w>k
+map <leader>l <C-w>l

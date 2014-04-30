@@ -4,12 +4,16 @@ set guioptions-=T
 
 "Set font to better one
 if has('gui_running')
-  set guifont=Lucida_Console:h9
+	if has ( "gui_macvim" )
+		set guifont=Menlo:h12
+	else
+		set guifont=Lucida_Console:h12
+	endif
 endif
 
 
 "Set the color scheme
-:colorscheme slate2
+:colorscheme Monokai
 
 "Remember size and position of the window
 au GUIEnter * simalt ~x
